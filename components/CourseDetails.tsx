@@ -19,10 +19,10 @@ const CourseDetails = () => {
 
   return (
     <div>
-      <h1 className="text-5xl my-4 text-center pb-4">{selectedCourse.name}</h1>
+      <h1 className="text-xl md:text-3xl lg:text-5xl my-4 text-center pb-4">{selectedCourse.name}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <p className="text-2xl font-light pb-4">
+          <p className="text-xl md:text-2xl font-light pb-4">
             {selectedCourse.description}
           </p>
           <div className="">
