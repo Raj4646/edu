@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="p-4 shadow-md ">
       <ul className="flex space-x-8 justify-between">
         <li>
-          <Link href="/courses">
+          <Link href="/">
             Coursify
           </Link>
         </li>
